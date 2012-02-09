@@ -155,3 +155,9 @@ z-index: 100;
 		min-height: 500px
 
 	}
+
+hr {
+	color: #333;
+	line-height: 1px;
+		
+}
