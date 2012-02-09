@@ -33,7 +33,7 @@ padding-top: 100px;
 }
 
 .navigation ul {
-padding-left: 0;
+padding-left: 0PX;
 list-style-type: none;
 text-align: left;
 margin-top: 30px;
@@ -66,9 +66,12 @@ text-decoration:underline;
 
 .navigationitem
 {
-	border-bottom:thin white;
-	border-collapse:collapse;
+	border-collapse: collapse;
 	border-bottom-style: solid;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-bottom-color: white;
+	
 }
 
 .navigationitem li
@@ -147,8 +150,8 @@ z-index: 100;
 		vertical-align: top;
 		text-align:justify;
 		text-wrap:normal;
-		height: 500px;
-		padding-top: 100px;		
-
+		height: auto;
+		padding-top: 100px;
+		min-height: 500px
 
 	}
