@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+font-family:'georgia';
+}
+
+.content {
+width: 734px;
+margin-left:250px;
+}
+
+#title {
+font-size: 22px;
+}
+
+/*BEGIN navigation CSS*/
+.navigation {
+float: left;
+width: 200px;
+height: 100%;
+position: absolute;
+border-top: 1px solid white;
+margin-top: 50px;
+background:#CCCCCC;
+}
+
+.navigation ul {
+padding-left: 0;
+list-style-type: none;
+text-align: right;
+margin-top: 30px;
+}
+
+.navigation a {
+display: block;
+padding: 7px 0 7px 0;
+font-size: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.navigation a:link , .navigation a:visited{
+text-decoration: none;
+color: #000;
+}
+
+.navigation a:hover {
+color: gray;
+}
+
+#list a:link#current, #list a:visited#current{
+color: #d12838;
+}
+
+.navigationitem
+{
+	border-bottom:thin #000;
+	border-collapse:collapse;
+}
+/*END navigation CSS */
+
+/* CSS to expand up images on rollover */
+.expand {
+float: left;
+clear: none;
+border: 1px solid #d12838;
+}
+
+.expand a { 
+display:block;
+text-decoration: none;
+}
+
+.expand a:hover{
+position:relative;
+}
+
+.expand span img {
+border: 1px solid black;
+}
+
+.expand a span {
+position: absolute;
+display:none;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 13px;
+padding-left: 10px;
+}
+
+.expand img {
+border-width: 0;
+}
+
+.expand a:hover span { 
+display:block;
+top: -90px; 
+left: -200px;
+z-index: 100;
+}
+/* END CSS to expand up images on rollover */
+
+.title {
+	font-size: 22pt;
+	height:: 30pt;
+	border-bottom: thick;
+	border-bottom-color: black;
+	border-radius: 5px;
+	vertical-align: middle;
+	width: 960px;
+	border-width: 1px;
+	float: left;
+}
+
