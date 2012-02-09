@@ -7,10 +7,12 @@ font-family:'georgia';
 
 .content {
 width: 770px;
-margin-left:250px;
+margin-left:220px;
 height: auto;
 vertical-align: top; 
 display: block;
+vertical-align: top;
+float: inherit;
 }
 
 #title {
@@ -18,6 +20,7 @@ font-size: 22px;
 }
 
 /*BEGIN navigation CSS*/
+/*navigation CSS*/
 .navigation {
 float: left;
 width: 200px;
@@ -32,9 +35,8 @@ padding-top: 100px;
 .navigation ul {
 padding-left: 0;
 list-style-type: none;
-text-align: right;
+text-align: left;
 margin-top: 30px;
-
 }
 
 .navigation a {
@@ -47,15 +49,17 @@ text-transform: uppercase;
 
 .navigation a:link , .navigation a:visited{
 text-decoration: none;
-color: #000;
+color: black;
 }
 
 .navigation a:hover {
 color: gray;
 }
 
+
 #list a:link#current, #list a:visited#current{
-color: #d12838;
+color: blue;
+text-align:left;
 }
 
 .navigationitem
@@ -63,6 +67,13 @@ color: #d12838;
 	border-bottom:thin white;
 	border-collapse:collapse;
 	border-bottom-style: solid;
+}
+
+.navigationitem li
+{
+	list-style-type:none;
+	margin-left: 0px;
+
 }
 /*END navigation CSS */
 
@@ -111,7 +122,7 @@ z-index: 100;
 	font-size: 22pt;
 	height: 50px;
 	vertical-align: middle;
-	width: 960px;
+	width: 980px;
 	border-width: 1px;
 	float: left;
 	order-bottom-color:#000; 
@@ -123,13 +134,19 @@ z-index: 100;
 {
 	border-top:thin;
 	border-top-style:solid;
-	width:720px;
+	width:770px;
 	font-size: 10pt;
 	padding-top: 10px;
 	line-height: 20px;
 }
-.content1
+.writing
 	{
 		word-wrap:break-word;
 		vertical-align: top;
+		text-align:justify;
+		text-wrap:normal;
+		height: 500px;
+		padding-top: 200px;		
+
+
 	}
