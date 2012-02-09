@@ -60,6 +60,8 @@ color: gray;
 #list a:link#current, #list a:visited#current{
 color: blue;
 text-align:left;
+font-weight:bold;
+text-decoration:underline;
 }
 
 .navigationitem
@@ -146,7 +148,7 @@ z-index: 100;
 		text-align:justify;
 		text-wrap:normal;
 		height: 500px;
-		padding-top: 200px;		
+		padding-top: 100px;		
 
 
 	}
