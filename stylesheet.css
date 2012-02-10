@@ -75,6 +75,14 @@ background-color: #999;
 	
 }
 
+.navtopheader
+{
+	border-top-style:solid; 
+	border-top-width: thin; 
+	border-top-color:#FFFFFF
+	
+}
+
 .navigationitem li
 {
 	list-style-type:none;
