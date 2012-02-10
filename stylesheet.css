@@ -6,8 +6,8 @@ font-family:'georgia';
 }
 
 .content {
-width: 770px;
-margin-left:220px;
+width: 740px;
+margin-left:255px;
 height: auto;
 vertical-align: top; 
 display: block;
@@ -23,12 +23,15 @@ font-size: 22px;
 /*navigation CSS*/
 .navigation {
 float: left;
-width: 200px;
-height: 100%;
+width: 240px;
+height: auto;
+min-height: 800px;
 position: absolute;
 border-top: 2px solid black;
 margin-top: 50px;
 background:#CCCCCC;
+background-repeat:repeat-y;
+background-attachment:scroll;
 padding-top: 20px;
 }
 
@@ -152,6 +155,7 @@ z-index: 100;
 	font-size: 10pt;
 	padding-top: 10px;
 	line-height: 20px;
+	margin-top: 43px;
 }
 .writing
 	{
@@ -161,7 +165,7 @@ z-index: 100;
 		text-wrap:normal;
 		height: auto;
 		padding-top: 100px;
-		min-height: 500px
+		min-height: 300px
 
 	}
 
@@ -173,4 +177,21 @@ hr {
 .span4
 {
 width: 100px;	
+}
+.backnext {
+font-size:10pt;
+font-style:oblique;	
+}
+.catindent {
+	text-indent: 25px;
+}
+.cat2indent { 
+	text-indent: 8px;
+}
+.annouce {
+	padding-top: 5px;
+	text-indent: 12px;
+	font-size:8pt;
+	font-weight:bold;	
+	font-family: Arial, Helvetica, sans-serif;
 }
