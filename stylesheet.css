@@ -61,7 +61,8 @@ color: gray;
 color: blue;
 text-align:left;
 font-weight:bold;
-text-decoration:underline;
+text-decoration: none;
+background-color: #999;
 }
 
 .navigationitem
@@ -127,7 +128,7 @@ z-index: 100;
 	font-size: 22pt;
 	height: 50px;
 	vertical-align: middle;
-	width: 1080px;
+	width: 980px;
 	border-width: 1px;
 	float: left;
 	order-bottom-color:#000; 
