@@ -127,7 +127,7 @@ z-index: 100;
 	font-size: 22pt;
 	height: 50px;
 	vertical-align: middle;
-	width: 980px;
+	width: 1080px;
 	border-width: 1px;
 	float: left;
 	order-bottom-color:#000; 
@@ -160,4 +160,8 @@ hr {
 	color: #333;
 	line-height: 1px;
 		
+}
+.span4
+{
+width: 100px;	
 }
