@@ -222,3 +222,7 @@ blockquote.talk1 {
      background-repeat: no-repeat;
      background-position: bottom right;
    }
+   
+.picborder{
+    border:1px solid red;
+}
