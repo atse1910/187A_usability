@@ -222,3 +222,18 @@ blockquote.talk1 {
      background-repeat: no-repeat;
      background-position: bottom right;
    }
+   
+
+.image{
+    margin-bottom:10px;
+    float:right;
+    padding-right:15px;
+    padding-top:16px;
+    padding-bottom:16px;
+     display:block;
+}
+
+.image img{
+    width:235px;
+    border:1px solid red;
+}

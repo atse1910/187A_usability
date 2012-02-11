@@ -5,7 +5,30 @@
 <title>Usability Evaluation of University of Louisiana at Lafayette</title>    
 <meta name="description" content="University of Louisiana Site Usability Evaulation for COGS 187A">
 <meta name="author" content="Andy Tse, Jeongho Cho, Kyudong Nam">
+    
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 
+    
+    <!--Fancybox stuff-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+    </script>
+    <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen">
+    <script type="text/javascript">
+		$(document).ready(function() {
+                  
+			$("a#hoverup").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+		});
+	</script>
+    
 <link rel="stylesheet" href="stylesheet.css">
 
 </head>
@@ -99,8 +122,11 @@ COGS 187A - Usability Evaluation of University of Louisiana at Lafayette
                 	<!-- Begin Image -->
                     <div style="float:left; width: 200px;">
                     <!-- Image goes here -->
-                    <img src="images/10a-thumb.jpg">
 
+
+ 		
+              <a id="hoverup" href="images/10a.jpg" ><img src="images/10a-thumb.jpg"></a>
+            
                     
                     
                     <!-- End Image -->
