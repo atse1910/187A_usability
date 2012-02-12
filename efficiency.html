@@ -5,10 +5,34 @@
 <title>Usability Evaluation of University of Louisiana at Lafayette</title>    
 <meta name="description" content="University of Louisiana Site Usability Evaulation for COGS 187A">
 <meta name="author" content="Andy Tse, Jeongho Cho, Kyudong Nam">
+    
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 
+    
+    <!--Fancybox stuff-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script>
+        !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+    </script>
+    <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen">
+    <script type="text/javascript">
+        $(document).ready(function() {
+                  
+            $("a#hoverup").fancybox({
+                'overlayShow'    : false,
+                'transitionIn'    : 'elastic',
+                'transitionOut'    : 'elastic'
+            });
+
+        });
+    </script>
+    
 <link rel="stylesheet" href="stylesheet.css">
 
 </head>
+
 
 <body>
 <div class="title">
@@ -71,151 +95,96 @@ COGS 187A - Usability Evaluation of University of Louisiana at Lafayette
 </span>
 </blockquote>
 <div align="right"> &mdash; Jacob Nielsen</div><br>
-                <div> <!-- Row begin here -->
+                
+                
+               		 <div> <!-- Row begin here -->
+                	
                 	<!-- Begin Image -->
                     <div style="float:left; width: 200px;">
                     <!-- Image goes below here -->
-                    
-                    <div class="image expand">
-                        <a href="images\7-1-1.jpg">
-                        <img src="images\7-1-1.jpg" alt="A" width="150" vspace="20px">
-                        <span><img src="images\7-1-1.jpg" alt="small"></span>
-                        
-                        </a>
-                    </div>
-                    
-                    
-                    
+                    <a id="hoverup" href="images/7-1-1.jpg"><img src="images/7-1-1a.jpg" class="picborder"></a>
                     </div>
                     <!-- End Image -->
                     
                     <!-- Begin content text -->
                     <div style="float:right; width: 520px;">
-        
-                    <!-- Content =txt goes below here -->
-                      This website, shows the all the sub-categories under the higher-level menu (figure1). It seems little messy, yet it is efficient. For example, when we tried to go to page that contains ‘Study Abroad,’ we only needed one single click to ‘Current Student’ form ‘Home.’ Since the site-map like ‘Current Student’ shows that ‘Study Abroad’ is located under the ‘Academic Programs.’ It saves users time a lot, and reduces useless clicking to check other menus if they have the goal contents. We found that in order to go to ‘Study Abroad’ page on UCSD website we needed to follow four pathways ‘Current,’ ‘Student Life,’ ‘International,’ and finally ‘Program Abroad.’ Plus, we experienced that we clicked other menus such as ‘Academics’ and ‘Department & Programs’ to check it they contain the contents.
-                    <br>
-                    <hr>
-                    
-        
-                    
-                    </div> <!-- End content text -->
-                
-                </div> <!-- Row end here -->
-
-                <div> <!-- Row begin here -->
-                	<!-- Begin Image -->
-                    <div style="float:left; width: 200px;">
-                    <!-- Image goes here -->
-                    <div class="image expand">
-                        <a href="images\7-1-2.jpg">
-                        <img src="images\7-1-2.jpg" alt="A" width="150" vspace="20px">
-                        <span><img src="images\7-1-2.jpg" alt="small"></span>
-                        </a>
-                    </div>           
-                    </div>
-                    <!-- End Image -->
-                    
-                    <!-- Begin content text -->
-                    <div style="float:right; width: 520px;">
-        
-                    <!-- Content txt goes below here -->
-Side bar is one of the most powerful option that makes using website more efficient. However, we found the side menu of this web site has a big problem. Firstly we need to think about the main function of the side in most websites. The side bar menu is the one that have the longest appearing time in most website. When users surf website from one page to another, they firstly check the side bar, because that is always there no matter which page they are in. 
-                    <hr>
-                    
-        
-                    
-                    </div> <!-- End content text -->
-                
-                </div> <!-- Row end here -->
-
-                <div> <!-- Row begin here -->
-                	<!-- Begin Image -->
-                    <div style="float:left; width: 200px;">
-                    <!-- Image goes here -->
-                    <div class="image expand">
-                        <a href="images\7-2-1.jpg">
-                        <img src="images\7-2-1.jpg" alt="A" width="150" vspace="20px">
-                        <span><img src="images\7-2-1.jpg" alt="small"></span>
-                        </a>
-                    </div>
-
-                    
-                    
-                    
-                    </div>
-                    <!-- End Image -->
-                    
-                    <!-- Begin content text -->
-                    <div style="float:right; width: 520px;">
-        
-                    <!-- Content =txt goes below here -->
-           In this website they put the very basic menus such as ‘Prospective Students,’ ‘Current Students,’ ‘Alumni,’ ‘Visitors,’ so on. However, from the users point of view, only one of the menus is fit with them. For example, for the current students, ‘perspective students’ menus or ‘visitors’ menus are just useless information most of time. In other word, after a user click and entered current student menu, the user no longer needs to have the side bar menu. 
-                    <hr>
-                    
-        
-                    
-                    </div> <!-- End content text -->
-                
-                </div> <!-- Row end here -->
-
-
-
-
-                <div> <!-- Row begin here -->
+					<!-- Content =txt goes below here -->
+                    This website shows all the sub-categories under the higher-level menu. It seems a little messy, yet it is efficient. For example, when we tried to go to page that contains “Study Abroad”, we only needed one single click to “Current Student” from “Home”. Since the site-map like “Current Student” shows that “Study Abroad” is located under  “Academic Programs”. It saves users a lot of time, and reduces the unnecessary rummaging of the menu and unhelpful pages just to see if it contains the material they are looking for. We found that in order to go to the page called “Study Abroad” on the UCSD website, we needed to follow four pathways: “Current”, “Student Life”, “International”, and “Program Abroad”. To add on, we experienced that we were clicking other menus such as “Academics” and “Department & Programs” to check it they contained the contents.
+					</div> <!-- End content text -->
                 	
-                    <div style="float:left; width: 200px;"> <!-- Begin Image -->
-                    <!-- Image goes here -->
-					<div class="image expand">
-                        <a href="images\7-2-2.jpg">
-                        <img src="images\7-2-2.jpg" alt="A" width="150" vspace="20px">
-                        <span><img src="images\7-2-2.jpg" alt="small"></span>
-                        </a>
-                    </div>
+                	</div> <!-- Row end here -->
+					<div class="clearfix"></div>
+					<hr>
 
+
+                	<div> <!-- Row begin here -->
+                	
+                	<!-- Begin Image -->
+                    <div style="float:left; width: 200px;">
+                    <!-- Image goes here -->
+                    <a id="hoverup" href="images/7-1-2.jpg"><img src="images/7-1-2a.jpg" class="picborder"></a>
+                    </div>           
+            		<!-- End Image -->
                     
+                    <!-- Begin content text -->
+                    <div style="float:right; width: 520px;">
+        			<!-- Content txt goes below here -->
+					Side bars are one of the most powerful options that make using websites more efficiently. However, we found that the side menu of this website has a big problem. Firstly, we need to think about the main function of a side bar in websites. When users surf websites, the side bar is the first thing they check because it is always present, no matter what page they are viewing.
+					</div> <!-- End content text -->
+                	
+                	</div> <!-- Row end here -->
+					<div class="clearfix"></div>
+					<hr>
+
+	                <div> <!-- Row begin here -->
+                	
+                	<!-- Begin Image -->
+                    <div style="float:left; width: 200px;">
+                    <!-- Image goes here -->
+                    <a id="hoverup" href="images/7-2-1.jpg"><img src="images/7-2-1a.jpg" class="picborder"></a>
+                    </div>
+                    <!-- End Image -->
                     
-                    
+                    <!-- Begin content text -->
+                    <div style="float:right; width: 520px;">
+        			<!-- Content =txt goes below here -->
+          			In this website they put the very basic menus such as “Prospective Students”, “Current Students”, “Alumni”, “Visitors”, etc on the main menu. From the user’s point of view, only one of the menus fits their profile. Once they have clicked on the menu that is relevant to them, it is unnecessary for the contents of the main menu to be on the side bar. 
+          			</div> <!-- End content text -->
+                	
+                	</div> <!-- Row end here -->
+					<div class="clearfix"></div>
+					<hr>
+					
+                	<div> <!-- Row begin here -->
+                	
+                	<div> <!-- Begin Image -->
+                   	<div style="float:left; width: 200px;">
+                    <!-- Image goes here -->
+					<a id="hoverup" href="images/7-2-2.jpg"><img src="images/7-2-2a.jpg" class="picborder"></a>
                     </div> <!-- End Image -->
                     
-                    
-                    
-                    <div style="float:right; width: 520px;"> <!-- Begin content text -->
-        
-                    <!-- Content text goes below here -->
-Thus, appearing such menus on the side for whole time on the website is wasting the place that can be used much more effectively. We recommend having a drop down menu of the Current page.
-                    <hr>
-                    
-        
-                    
+                    <!-- Begin content text -->
+                    <div style="float:right; width: 520px;"> 
+    				<!-- Content text goes below here -->
+                    In conclusion, having the main menu options on the side bar is actually a waste of a space that could be used more effectively. We recommend editing this system to a drop down menu for easier navigation of the website.
                     </div> <!-- End content text -->
-                
-                </div> <!-- Row end here -->
-
-
-
-
-
-
-
-
-
-
-
-            
+              		
+              		</div> <!-- Row end here -->
+					<div class="clearfix"></div>
+					<hr>
+					
+	
             </div> <!-- div writing end -->
             
 
         </div> <!-- div content end -->
 
-
-
-
+</div>
 <br>
 <div class="content">
 <div class="writing">
-            <div class="footer" style="margin-top: 430px;">
-            Content by Andy Tse, Jeong Ho Cho and Kyu Dong Nam &copy; 2012<br>
+            <div class="footer" style="margin-top: 10px">
+            Content by Andy Tse, Jeongho Cho and Kyu Dong Nam &copy; 2012<br>
             <div style="float: left;">Site Created February 09, 2012</div> <div style="float:right"> Designed on a 1680 x 1050 screen</div>
         	</div>
             </div>

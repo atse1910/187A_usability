@@ -105,6 +105,10 @@ font-style:oblique;
 .cat2indent { 
 	text-indent: 8px;
 }
+
+.clearfix {
+ 	clear:both;
+ 	}
 .annouce {
 	padding-top: 5px;
 	text-indent: 12px;
